@@ -1,0 +1,27 @@
+.title-wrapper {
+    color: white;
+    background-color: rgb(41, 41, 41);
+    padding: 1%;
+}
+
+.body-wrapper {
+    margin: 0% 1%;
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 3px 5px rgb(104, 104, 104);
+
+    padding-bottom: 10%;
+}
+
+body {
+    margin: 0%;
+    background-color: rgb(204, 204, 204);
+}
+
+.page-selector > * {
+    background-color: gray;
+    padding: 1%;
+    color: white;
+    margin-left: 2%;
+    
+}
