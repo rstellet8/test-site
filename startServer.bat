@@ -1,2 +1,2 @@
 CALL .venv/scripts/activate
-python app.py
+python server.py

@@ -3,7 +3,6 @@ from dash.dependencies import Input, Output
 import dash_core_components as dcc
 import dash_html_components as html
 import plotly.express as px
-import flask
 
 from home import generate_home
 from page1 import generate_page1
@@ -11,11 +10,9 @@ from page2 import generate_page2
 
 from clean_data import clean_data
 
-server = flask.Flask(__name__)
 
 app = dash.Dash(
     __name__,
-    server=server,
     #suppress_callback_exceptions=True
 )
 app.title = "Teste Multipage"
