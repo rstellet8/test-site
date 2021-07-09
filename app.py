@@ -11,6 +11,7 @@ from page2 import generate_page2
 
 from clean_data import clean_data
 
+
 server = flask.Flask(__name__)
 
 app = dash.Dash(
@@ -18,6 +19,7 @@ app = dash.Dash(
     server=server,
     #suppress_callback_exceptions=True
 )
+
 app.title = "Teste Multipage"
 
 
@@ -101,5 +103,8 @@ def page2_fig(country):
     return fig
 
 
+
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(
+        debug=True,
+        )
